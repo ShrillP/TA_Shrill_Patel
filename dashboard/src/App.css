@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  color: black;
+  padding-top: 1vh;
+}
+
+.dataTypeDropdown {
+  width: 15vh;
+  height: 10vh;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+}
+
+.p {
+  font-size: 0.9em;
+  color: black;
+}
+
+.chart {
+  width: 75%;
+  height: 75%;
+  display: block;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}

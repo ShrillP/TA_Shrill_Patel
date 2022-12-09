@@ -1,0 +1,18 @@
+#! /bin/bash
+
+# This script is used to setup the technical assessment mini-project.
+# It is assumed that the user has already installed the following:
+#   - npm
+#   - node
+
+# Install the project dependencies
+cd dashboard/
+npm install
+cd ../
+cd server/
+npm install
+cd ../
+
+# Run the server
+cd dashboard/
+npm run start
